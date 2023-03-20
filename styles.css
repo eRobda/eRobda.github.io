@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+.material-symbols-rounded {
+    position: absolute;
+    margin-top: -5px;
+    scale: 1.1;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+body{
+    margin: 0;
+    background: #1D1D1D;
+}
+div{
+    color: white;
+}
+.underline{
+    border-bottom: solid 1px white;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    margin-right: 30px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    user-select: none;
+}
+header ul li{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    padding: 5px;
+}
